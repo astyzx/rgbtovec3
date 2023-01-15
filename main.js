@@ -1,5 +1,5 @@
 //Using threejs color functions
-import { Color } from 'Color.js';
+import { Color } from './Color.js';
 
 function glToHex(glslStr) {
   glslStr = glslStr.replace('vec3(', '');
