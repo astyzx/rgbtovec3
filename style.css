@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(27, 27, 45);
+  font-size: 30px;
+  margin: 40px;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+}
+
+.content {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.199);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+h1 {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.199);
+}
+
+h1 strong {
+  color: rgb(119, 0, 255);;
+}
+
+.text-in {
+  display: block;
+  font-size: 30px;
+  margin-top: 30px;
+  width: 400px;
+  padding: 8px;
+  border: none;
+}
+
+#text-glsl {
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+#text-hex {
+  width: 420px;
+  height: 60px;
+  border-radius: 15px;
+}
